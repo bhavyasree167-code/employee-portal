@@ -1,0 +1,13 @@
+div {
+  width: 400px;
+  margin: 20px auto;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 20px;
+}
