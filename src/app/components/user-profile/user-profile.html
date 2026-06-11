@@ -1,23 +1,14 @@
 <h2>User Profile Form</h2>
 
-<div>
-  <label>Name</label>
-  <br>
-  <input type="text" [(ngModel)]="name">
+<form>
+  <label for="name">Name</label><br>
+  <input type="text" id="name" name="name"><br><br>
 
-  <br><br>
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email"><br><br>
 
-  <label>Email</label>
-  <br>
-  <input type="email" [(ngModel)]="email">
+  <label for="mobile">Mobile</label><br>
+  <input type="text" id="mobile" name="mobile"><br><br>
 
-  <br><br>
-
-  <label>Mobile</label>
-  <br>
-  <input type="text" [(ngModel)]="mobile">
-
-  <br><br>
-
-  <button (click)="save()">Save</button>
-</div>
+  <button type="submit">Save</button>
+</form>

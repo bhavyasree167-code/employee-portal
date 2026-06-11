@@ -1,13 +1,24 @@
-div {
-  width: 400px;
-  margin: 20px auto;
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 18px;
 }
 
 input {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 10px 25px;
+  cursor: pointer;
 }
